@@ -6,6 +6,7 @@ from odoo import models, fields, api, tools, _
 _logger = logging.getLogger(__name__)
 
 
+
 class PosProductAddonsConfig(models.Model):
     _inherit = 'product.template'
 
